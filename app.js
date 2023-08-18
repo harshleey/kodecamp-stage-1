@@ -20,11 +20,11 @@ function ShoppingCart () {
 
  this.getTotal = () => {
   let total = items.reduce((sum, curr) => sum + curr.price, 0)
-  console.log(total)
+  return total
  }
 
  this.getCartItems = () => {
-  console.log(items)
+  return items
  }
 }
 
